@@ -202,15 +202,38 @@ public class Menu implements Interfaz {
     }
 
     public void mostrarHistorial() {
+        System.out.println("============================");
         System.out.println("HISTORIAL DE FIGURAS");
-        System.out.println("Cuadrado: Área = " + cuadrado.getArea());
-        System.out.println("Triángulo: Área = " + triangulo.getArea());
-        System.out.println("Círculo: Área = " + circulo.getArea());
-        System.out.println("Cuadrado: Perímetro = " + cuadrado.getPerimetro());
-        System.out.println("Triángulo: Perímetro = " + triangulo.getPerimetro());
-        System.out.println("Círculo: Perímetro = " + circulo.getPerimetro());
-        System.out.println("Cubo: Volumen = " + cubo.getVolumen());
-        System.out.println("Pirámide: Volumen = " + piramide.getVolumen());
+        System.out.println("============================");
+        System.out.println("C U A D R A D O");
+        System.out.println("============================");
+        System.out.println(" Área = " + cuadrado.getArea());
+        System.out.println(" Perímetro = " + cuadrado.getPerimetro());
+        System.out.println("============================");
+        System.out.println(" T R I A N G U L O");
+        System.out.println("============================");
+        System.out.println(" Área = " + triangulo.getArea());
+        System.out.println(" Perímetro = " + triangulo.getPerimetro());
+        System.out.println("============================");
+        System.out.println(" C I R C U L O");
+        System.out.println("============================");
+        System.out.println("Área = " + circulo.getArea());
+        System.out.println("Perímetro = " + circulo.getPerimetro());
+        System.out.println("============================");
+        System.out.println(" C U B O ");
+        System.out.println("============================");
+        System.out.println("Area = "+cubo.getArea());
+        System.out.println("Volumen = " + cubo.getVolumen());
+        System.out.println("============================");
+        System.out.println("P I R A M I D E");
+        System.out.println("============================");
+        System.out.println("Area = "+ piramide.getAreaTotal());
+        System.out.println("Volumen = " + piramide.getVolumen());
+        System.out.println("============================");
+        System.out.println("E S F E R A");
+        System.out.println("============================");
+        System.out.println("Area ="+ esfera.getArea());
         System.out.println("Esfera: Volumen = " + esfera.getVolumen());
+        System.out.println("============================");
     }
 }
