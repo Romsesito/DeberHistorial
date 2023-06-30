@@ -23,11 +23,19 @@ public class Menu implements Interfaz {
         boolean ejecutando = true;
 
         while (ejecutando) {
+            System.out.println("============================");
+            System.out.println("============================");
             System.out.println("MENU PRINCIPAL");
+            System.out.println("============================");
             System.out.println("1. Figuras 2D");
+            System.out.println();
             System.out.println("2. Figuras 3D");
+            System.out.println();
             System.out.println("3. Historial de figuras");
+            System.out.println();
             System.out.println("4. Salir");
+            System.out.println();
+            System.out.println("============================");
             System.out.print("Seleccione una opción: ");
             int opcion = scanner.nextInt();
 
@@ -43,7 +51,7 @@ public class Menu implements Interfaz {
                     break;
                 case 4:
                     ejecutando = false;
-                    System.out.println("¡Hasta luego!");
+                    System.out.println("Finalizando...");
                     break;
                 default:
                     System.out.println("Opción inválida. Intente nuevamente.");
@@ -56,11 +64,19 @@ public class Menu implements Interfaz {
         boolean ejecutando = true;
 
         while (ejecutando) {
-            System.out.println("FIGURAS 2D");
+            System.out.println("============================");
+            System.out.println("Figuras 2D");
+            System.out.println("============================");
+            System.out.println();
             System.out.println("1. Cuadrado");
+            System.out.println();
             System.out.println("2. Triángulo");
+            System.out.println();
             System.out.println("3. Círculo");
+            System.out.println();
             System.out.println("4. Volver");
+            System.out.println("============================");
+            System.out.println("============================");
             System.out.print("Seleccione una figura: ");
             int opcion = scanner.nextInt();
 
@@ -88,12 +104,21 @@ public class Menu implements Interfaz {
         boolean ejecutando = true;
 
         while (ejecutando) {
+            System.out.println("============================");
             System.out.println("FIGURAS 3D");
+            System.out.println("============================");
+            System.out.println();
             System.out.println("1. Cubo");
+            System.out.println();
             System.out.println("2. Pirámide");
+            System.out.println();
             System.out.println("3. Esfera");
+            System.out.println();
             System.out.println("4. Volver");
+            System.out.println();
+            System.out.println("============================");
             System.out.print("Seleccione una figura: ");
+            System.out.println("============================");
             int opcion = scanner.nextInt();
 
             switch (opcion) {
@@ -120,11 +145,19 @@ public class Menu implements Interfaz {
         boolean ejecutando = true;
 
         while (ejecutando) {
+            System.out.println("============================");
             System.out.println("OPERACIONES");
+            System.out.println("============================");
+            System.out.println();
             System.out.println("1. Calcular área");
+            System.out.println();
             System.out.println("2. Calcular perímetro");
+            System.out.println();
             System.out.println("3. Volver");
+            System.out.println();
+            System.out.println("============================");
             System.out.print("Seleccione una operación: ");
+            System.out.println("============================");
             int opcion = scanner.nextInt();
 
             switch (opcion) {
